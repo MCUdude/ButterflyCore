@@ -1,2 +1,12 @@
 # ButterflyCore
-An Arduino core for the ATmega169, ATmega329 and ATmega649
+I had an old AVR Butterfly lying in my drawer and an evening with nothing to do. Why not add support for it, and the rest of the chip family as well? :smile:?
+
+The code will be published soon, but here are few of it's features:
+* Optiboot support
+* Selectable clock frequency
+* Selectable BOD setting
+* Link time optimization (LTO)
+* Libraries for interfacing with the LCD, dataflash, buzzer, temperature sensor and light sensor
+* Excellent documentation (ofcourse)
+* A great pinout diagram
+
