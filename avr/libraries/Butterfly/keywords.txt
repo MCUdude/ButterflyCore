@@ -1,0 +1,56 @@
+#######################################
+# Syntax Coloring Map for the
+# AVR Butterfly Arduino library
+#######################################
+
+
+#######################################
+# ButterflyLCD.h
+#######################################
+
+ButterflyLCD	KEYWORD1	ButterflyLCD
+begin	KEYWORD2
+setContrast	KEYWORD2
+setCursor	KEYWORD2
+wait	KEYWORD2
+print	KEYWORD2
+print_f	KEYWORD2
+clear	KEYWORD2
+showColons	KEYWORD2
+write	KEYWORD2
+
+
+#######################################
+# ButterflyTemp.h
+#######################################
+
+ButterflyTemp	KEYWORD1	ButterflyTemp
+getTemp	KEYWORD2
+overSample	KEYWORD2
+CELSIUS	LITERAL2		RESERVED_WORD_2
+FARENHEIT	LITERAL2		RESERVED_WORD_2
+
+
+#######################################
+# ButterflyDataflash.h
+#######################################
+
+ButterflyDataflash	KEYWORD1	ButterflyTemp
+ReadDFStatus	KEYWORD2
+Activate	KEYWORD2
+Deactivate	KEYWORD2
+EnterDeepPowerDown	KEYWORD2
+ExitDeepPowerDown	KEYWORD2
+BufferToPage	KEYWORD2
+PageToBuffer	KEYWORD2
+ContFlashReadEnable	KEYWORD2
+BufferReadEnable	KEYWORD2
+BufferReadByte	KEYWORD2
+BufferReadStr	KEYWORD2
+ReadNextByte	KEYWORD2
+BufferWriteEnable	KEYWORD2
+BufferWriteByte	KEYWORD2
+BufferWriteStr	KEYWORD2
+WriteNextByte	KEYWORD2
+PageBufferCompare	KEYWORD2
+PageErase	KEYWORD2
